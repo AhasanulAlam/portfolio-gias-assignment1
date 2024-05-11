@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(26, 26, 26) !important;
+    background-blend-mode: overlay;
+    color: white;
+}
+
+.nav-a-menu-item{
+    color: white;
+}
+
+.nav-a-menu-item:hover{
+    color: rgb(35, 232, 13);
+}
+
+.btn-send-message:hover{
+    background-color: blue;
+    color: white;
+}
+
+.btn-resume:hover{
+    background-color: rgb(35, 232, 13);
+    border: 1px solid rgb(35, 232, 13);
+}
+
+.contact-me-form-container{
+    box-shadow: 4px 4px 8px gray;
+}
+
+.form-control{
+    background-color: rgb(26, 26, 26);
+    box-shadow: 4px 4px 8px gray;
+    color: white;
+}
+.form-control::placeholder{
+    color: gray;
+}
